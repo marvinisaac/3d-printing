@@ -29,7 +29,7 @@ material_print_temperature_layer_0 = 205.0
 optimize_wall_printing_order = True
 retraction_amount = 5
 retraction_speed = 60
-skin_material_flow = =material_flow
+skin_material_flow = 110
 skirt_brim_minimal_length = 0
 skirt_gap = 5
 speed_infill = 120.0
@@ -39,7 +39,7 @@ speed_support = 90
 support_angle = 60
 support_infill_rate = 15
 support_tree_angle = 63
-top_bottom_thickness = 0.6
+top_bottom_thickness = 0.9
 wall_0_material_flow = 95
 wall_material_flow = =material_flow
 wall_thickness = 0.6
