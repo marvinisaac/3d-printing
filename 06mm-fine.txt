@@ -5,6 +5,7 @@ layer_height = 0.15
 layer_height_0 = 0.4
 material_bed_temperature = 50
 retraction_combing = noskin
+speed_slowdown_layers = 4
 support_enable = False
 support_structure = tree
 support_type = everywhere
@@ -20,8 +21,8 @@ infill_sparse_density = 15
 initial_layer_line_width_factor = 200
 jerk_print = 5
 jerk_topbottom = 0.3
-line_width = 0.9
-material_flow = 105
+line_width = 0.7
+material_flow = 100
 material_flow_layer_0 = 100
 material_initial_print_temperature = 205
 material_print_temperature = 190
@@ -29,20 +30,20 @@ material_print_temperature_layer_0 = 205.0
 optimize_wall_printing_order = True
 retraction_amount = 5
 retraction_speed = 60
-skin_material_flow = 110
+skin_material_flow = =material_flow
 skirt_brim_minimal_length = 0
 skirt_gap = 5
 speed_infill = 120.0
-speed_layer_0 = 20
-speed_print = 40
+speed_layer_0 = =speed_print * 30 / 60
+speed_print = 60
 speed_support = 90
 support_angle = 60
 support_infill_rate = 15
 support_tree_angle = 63
 top_bottom_thickness = 0.6
-wall_0_material_flow = 95
+wall_0_material_flow = =wall_material_flow
 wall_material_flow = =material_flow
-wall_thickness = 1.8
+wall_thickness = 0.7
 wall_x_material_flow = =wall_material_flow
 z_seam_corner = z_seam_corner_inner
 z_seam_position = backright
