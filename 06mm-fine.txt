@@ -20,7 +20,7 @@ infill_sparse_density = 15
 initial_layer_line_width_factor = 200
 jerk_print = 5
 jerk_topbottom = 0.3
-line_width = 0.6
+line_width = 0.9
 material_flow = 105
 material_flow_layer_0 = 100
 material_initial_print_temperature = 205
@@ -42,7 +42,7 @@ support_tree_angle = 63
 top_bottom_thickness = 0.6
 wall_0_material_flow = 95
 wall_material_flow = =material_flow
-wall_thickness = 1.2
+wall_thickness = 1.8
 wall_x_material_flow = =wall_material_flow
 z_seam_corner = z_seam_corner_inner
 z_seam_position = backright
